@@ -119,6 +119,7 @@ inputs:
 
         You can use multiple options, separated by a space
         character. Example: `-xcconfig PATH -verbose`
+        For Mac Catalyst exports add `SUPPORTS_MACCATALYST=YES`
   - disable_index_while_building: "yes"
     opts:
       category: "xcodebuild configs"
